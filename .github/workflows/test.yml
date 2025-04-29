@@ -20,11 +20,10 @@ jobs:
 
       - name: Install dependencies
         run: |
+          cd Develop/client
           npm install
-          cd server && npm install
-          cd ../client && npm install
 
       - name: Run Cypress Component Tests
         run: |
-          cd client
+          cd Develop/client
           npm run test-component
