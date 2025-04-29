@@ -1,3 +1,11 @@
+import './commands';
+import { mount } from '@cypress/react18';
+
+Cypress.Commands.add('mount', mount);
+
+// no need to repeat type here anymore
+
+
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite

@@ -1,4 +1,5 @@
-import Quiz from "../../client/src/components/Quiz"
+import Quiz from "../../src/components/Quiz";
+import "../support/component";
 
 describe('Quiz Component', () => {
   beforeEach(() => {
