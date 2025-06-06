@@ -29,7 +29,6 @@ Key features:
 
 Visit the deployed application:  
 [Deployed App on Render](https://deployment-cicd-a4ub.onrender.com)  
-*(Replace with your real Render URL)*
 
 ---
 
